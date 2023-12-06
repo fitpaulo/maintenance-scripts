@@ -23,7 +23,7 @@ files=(
   "$config/helix/languages.toml"
   "$config/kitty/kitty.conf"
   "$config/leftwm/config.ron"
-  "$config/fish" # the whole dir
+  "$config/fish/" # the whole dir
 )
 
 get_dir_name() {
