@@ -1,0 +1,21 @@
+# Config files
+# The not QTs part says ignore some Qt conf files in the .config subdir 
+[^QTs]*.conf
+*.config
+
+# Dunst
+dunstrc
+
+# Fish config files
+*.fish
+
+# KDL files (zellij)
+*.kdl
+
+# Rust config files
+*.toml
+*.ron
+
+# Yaml
+*.yml
+*.yaml

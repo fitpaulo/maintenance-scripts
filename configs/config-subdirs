@@ -1,0 +1,20 @@
+# config sub dirs
+alacritty
+dunst
+fish
+helix
+kitty
+leftwm
+tmux
+zellij
+
+# These are sub dirs in .config/fish/
+completions
+conf.d
+functions
+
+# Systemd configs
+systemd
+user
+backup-home*
+sync-dotfiles*
