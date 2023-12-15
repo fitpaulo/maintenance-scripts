@@ -20,5 +20,5 @@ do
   rsync -aP "$HOME/$item" "$output/${item:1}" --delete-after
 done
 
-rsync -aP --include-from="$file_extensions" --include-from="$subdirs" --exclude='*' --no-links --delete-after "$input" "$output"
+rsync -aP --include-from="$file_extensions" --include-from="$subdirs" --exclude='*' --copy-links --delete-after "$input" "$output"
 rsync -aP --include="*.sh" --exclude='*' "$HOME/.bashrc.d/" "$output" --delete-after
