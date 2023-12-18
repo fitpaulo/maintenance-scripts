@@ -16,6 +16,11 @@ dunstrc
 *.toml
 *.ron
 
+# XMonad & Xmobar
+build
+*.hs
+xmobarrc
+
 # Yaml
 *.yml
 *.yaml

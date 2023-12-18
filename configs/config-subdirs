@@ -6,6 +6,8 @@ helix
 kitty
 leftwm
 tmux
+xmonad
+xmobar
 zellij
 
 # These are sub dirs in .config/fish/
