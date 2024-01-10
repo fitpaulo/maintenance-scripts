@@ -1,6 +1,6 @@
 #!/bin/bash
 
-script_config_dir="$HOME/src/scripts/configs"
+script_config_dir="$HOME/src/maintenance-scripts/configs"
 file_extensions="$script_config_dir/config-file-extensions"
 subdirs="$script_config_dir/config-subdirs"
 bash="$script_config_dir/bash"
