@@ -5,7 +5,7 @@
 #
 # It would be ideal to have a SAN
 
-BACKUP_DIR=/zfs/media/backuphome
+BACKUP_DIR=/mnt/backup
 SCRIPT_DIR=$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")
 
 timestamp () {
