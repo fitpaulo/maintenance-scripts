@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 # Sometimes the right click stops working. I should probably figrue that out
 # This will fix it
