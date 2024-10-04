@@ -6,6 +6,9 @@
 # Dunst
 dunstrc
 
+# icons
+*.png
+
 # Fish config files
 *.fish
 

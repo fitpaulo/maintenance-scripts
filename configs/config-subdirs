@@ -1,24 +1,22 @@
 # config sub dirs
 alacritty
 dunst
+dunst/icons
 fish
+fish/comtletions
+fish/conf.d
+fish/functions
 helix
 kitty
 leftwm
 picom
+systemd/user
 tmux
 wezterm
 xmonad
 xmobar
 zellij
 
-# These are sub dirs in .config/fish/
-completions
-conf.d
-functions
-
 # Systemd configs
-systemd
-user
 backup-home*
 sync-dotfiles*
