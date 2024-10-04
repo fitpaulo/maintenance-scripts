@@ -1,6 +1,6 @@
 # Config files
-# The not QTs part says ignore some Qt conf files in the .config subdir 
-[^QTs]*.conf
+# Do not sync misc config files starting with Q E T or s
+[^QETs]*.conf
 *.config
 
 # Dunst
