@@ -1,6 +1,6 @@
 # Config files
 # Do not sync misc config files starting with Q E T Z or s
-[^QETZs]*.conf
+[^QETzs]*.conf
 *.config
 
 # Dunst
