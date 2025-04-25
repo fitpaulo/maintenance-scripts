@@ -7,8 +7,8 @@
 # rename the alttpr file to cave-story...
 
 DOWNLOADS_DIR="$HOME/Downloads"
-SAGA_DIR="/home/share/SaGa Frontier"
-NEW_NAME="saga.sfc"
+MSU_DIR="$HOME/Games/alttpr/ffpr-alttp/"
+NEW_NAME="ffpr-alttp.sfc"
 
 
 for file in "$DOWNLOADS_DIR"/*; do
@@ -17,7 +17,7 @@ for file in "$DOWNLOADS_DIR"/*; do
       f="${file##*/}"
       echo "Found $f"
       cd "$DOWNLOADS_DIR"
-      mv "$f" "$SAGA_DIR/$NEW_NAME"
+      mv "$f" "$MSU_DIR/$NEW_NAME"
     fi
   fi
 done
